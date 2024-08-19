@@ -3,11 +3,13 @@ import Layout from '../layouts/Layout.astro';
 const pageTitle = "Possum Place";
 ---
 <Layout pageTitle={pageTitle}>
+    
     <div class="gif">
         <img width="300" height="259" alt="RaccoonSpaceGif" src="/space.webp"/>
     </div>
     <h1>Stolen Goods</h1>
     <span class="badge">Software Engineer</span>
+    
     <h2>About</h2>
     <p>
         I'm Stolen Goods! I'm a Computer Science Master's student who likes games. 
@@ -18,11 +20,8 @@ const pageTitle = "Possum Place";
             <button class="btn">My portfolio</button>
         </a>
     </div>
-    <h2>Possums?</h2>
-    <div class="tenor-gif-embed" data-postid="8549864" data-share-method="host" data-aspect-ratio="1.33333" data-width="100%"><a href="https://tenor.com/view/marge-i-just-think-theyre-neat-the-simpsons-neat-potato-gif-8549864">Marge I Just Think Theyre Neat GIF</a>from <a href="https://tenor.com/search/marge-gifs">Marge GIFs</a></div> <script type="text/javascript" async src="https://tenor.com/embed.js"></script>
-    <p>
-        
     </p>
+    
     <h2>Skills</h2>
     <div class="skills center">
         <img class="skills__img" width="46" height="46" alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/javascript/javascript-original.svg"/>
@@ -36,6 +35,7 @@ const pageTitle = "Possum Place";
             <li>bloo</li>
         </ol>
     </p>
+    
     <h2>Interests</h2>
     <p>
         I like Magic: The Gathering and make my own custom cards for it! Check those out <a href="wew">here</a>!
@@ -44,5 +44,10 @@ const pageTitle = "Possum Place";
         <br>
         Beyond that, I'm currently enjoying Team Fortress 2, Baldur's Gate 3 and D&D in general, Dropout, and a smattering of board games.
     </p>
+
+    <h2>Possums?</h2>
+    <a href="/silly/">
+        <img class="gif" width="480" height="360" src="marge.gif"/>
+    </a>
 </Layout>
 
