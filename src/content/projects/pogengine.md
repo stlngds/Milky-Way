@@ -1,6 +1,6 @@
 ---
 title: 'PogEngine'
-description: 'A simple C++/OpenGL game engine.'
+description: 'A simple C++/OpenGL game engine'
 image:
     url: '/GitHub.webp'
     alt: 'GitHub wallpaper'
